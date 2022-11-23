@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Justin Zhao\\source\\repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj": {}
+    "C:\\Users\\Justin Zhao\\Source\\Repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Justin Zhao\\source\\repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj": {
+    "C:\\Users\\Justin Zhao\\Source\\Repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Justin Zhao\\source\\repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj",
+        "projectUniqueName": "C:\\Users\\Justin Zhao\\Source\\Repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj",
         "projectName": "CyberMondayCustomerSMS",
-        "projectPath": "C:\\Users\\Justin Zhao\\source\\repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj",
+        "projectPath": "C:\\Users\\Justin Zhao\\Source\\Repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj",
         "packagesPath": "C:\\Users\\Justin Zhao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Justin Zhao\\source\\repos\\CyberMondayCustomerSMS\\obj\\",
+        "outputPath": "C:\\Users\\Justin Zhao\\Source\\Repos\\CyberMondayCustomerSMS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
