@@ -14,7 +14,6 @@ namespace TestConsoleApp
         {
             String textFile = @"C:\Users\Justin Zhao\Documents\CyberMondayCustomersTest.csv";
             String[] lines = File.ReadAllLines(textFile);
-            //lines = lines.Skip(1).ToArray();
             String API_KEY = "9uxSgUOcEtLuCyLWV6vy";
             String API_SECRET = "xmSBziqxBPbIje2H4Z6BYv6GbLqZkC";
             Boolean HMAC = false;
@@ -49,15 +48,6 @@ namespace TestConsoleApp
                 body.Messages.Remove(body_messages_0);
                 count++;
             }
-            /*try
-            {
-                SendMessagesResponse result = messages.SendMessagesAsync(body).Result;
-                Console.WriteLine(result);
-            }
-            catch (APIException e)
-            {
-                Console.WriteLine(e.Message + e.ResponseCode + e.HttpContext.ToString());
-            }*/
         }
     }
 }
