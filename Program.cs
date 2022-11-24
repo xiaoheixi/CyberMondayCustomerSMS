@@ -21,13 +21,12 @@ namespace TestConsoleApp
             MessagesController messages = client.Messages;
             SendMessagesRequest body = new SendMessagesRequest();
             body.Messages = new List<Message>();
-            var regex = new Regex(Regex.Escape("0"));
             var count = 1;
             foreach (string x in lines)
             {
                 Message body_messages_0 = new Message();
                 body_messages_0.Content = x.Split(',')[4].TrimStart().Replace("'", "") + " is offering 5% off all orders placed through YQme on Cyber Monday. Place an order using the following link " + x.Split(',')[5].TrimStart().Replace("'", "") + " and " + x.Split(',')[4].TrimStart().Replace("'", "") + " will give you 5% off your order. \nRegards,\n" + x.Split(',')[4].TrimStart().Replace("'", "");
-                body_messages_0.DestinationNumber = regex.Replace(x.Split(',')[3].TrimStart().Replace("'", ""), "+61", 1);
+                body_messages_0.DestinationNumber = x.Split(',')[3].TrimStart().Replace("'", "").Replace("+61", "");
                 body.Messages.Add(body_messages_0);
                 try
                 {
@@ -51,4 +50,3 @@ namespace TestConsoleApp
         }
     }
 }
-            
