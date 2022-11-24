@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nUMTVNJfxwE+gquRxFxU5NjtqvWFdqiC2Sq+IqemFdS5BqELvJ49i+wes0fpzRW1KQHozl5daU4icDCMLXbYTw==",
+  "dgSpecHash": "He+sLPvvZy/6ZavKJIMt8flmXLblfp08mtNKsAttXCso9oUWIhauPtA6be6Y3xfzqrE6y1fegG162ooMDKF4lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Justin Zhao\\Source\\Repos\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj",
+  "projectFilePath": "C:\\Users\\Justin Zhao\\source\\repos\\xiaoheixi\\CyberMondayCustomerSMS\\CyberMondayCustomerSMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Justin Zhao\\.nuget\\packages\\messagemedia.sdk.messages\\2.0.0\\messagemedia.sdk.messages.2.0.0.nupkg.sha512",
     "C:\\Users\\Justin Zhao\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
