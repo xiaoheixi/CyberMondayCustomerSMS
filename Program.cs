@@ -31,6 +31,10 @@ namespace TestConsoleApp
                 {
                     body_messages_0.DestinationNumber = x.Split(',')[3].TrimStart().Replace("'", "");
                 }
+                else if (Regex.IsMatch(x.Split(',')[3].TrimStart().Replace("'", ""), "^614[0-9]{8}$"))
+                {
+                    body_messages_0.DestinationNumber = "+" + x.Split(',')[3].TrimStart().Replace("'", "");
+                }
                 else
                 {
                     body_messages_0.DestinationNumber = regex.Replace(x.Split(',')[3].TrimStart().Replace("'", ""), "+61", 1);
