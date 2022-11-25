@@ -26,7 +26,7 @@ namespace TestConsoleApp
             foreach (string x in lines)
             {
                 Message body_messages_0 = new Message();
-                body_messages_0.Content = "Hi " + x.Split(',')[1].TrimStart().Replace("'", "") + ",\n" + x.Split(',')[4].TrimStart().Replace("'", "") + " is offering 5% off all orders placed through YQme on Cyber Monday. Order now:\n" + x.Split(',')[5].TrimStart().Replace("'", "") + "\nEnjoy!\n" + x.Split(',')[4].TrimStart().Replace("'", "");
+                body_messages_0.Content = "Hi " + x.Split(',')[1].TrimStart().Replace("'", "") + ",\n\n" + x.Split(',')[4].TrimStart().Replace("'", "") + " is offering 5% off all orders placed through YQme on Cyber Monday. \n\nOrder now: " + x.Split(',')[5].TrimStart().Replace("'", "") + "\n\nEnjoy!\n" + x.Split(',')[4].TrimStart().Replace("'", "");
                 if (x.Split(',')[3].TrimStart().Replace("'", "").Contains("+61"))
                 {
                     body_messages_0.DestinationNumber = x.Split(',')[3].TrimStart().Replace("'", "");
